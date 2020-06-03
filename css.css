@@ -1,0 +1,33 @@
+body{
+	background:#339a7b;
+	margin:0;
+}
+.navbar{
+	width:100%;
+	
+
+}
+header{
+	background:black;
+	color:white;
+	height:10vh;
+	padding-top:0px;
+
+}
+.navbar li{
+
+	display:inline-block;
+	margin-left:350px;
+	padding-top:10px;
+}
+.navbar a
+{
+	color:white;
+	font-size:16px;
+}
+//slideshow
+
+.mySlides {
+display: none;
+
+}

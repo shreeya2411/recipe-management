@@ -1,0 +1,101 @@
+body{
+	background:#339a7b;
+	margin:0;
+	background-size:cover;
+	background-image:url("images\cookbook.png");
+	background-size:cover;
+}
+.navbar{
+	width:100%;
+	
+
+}
+
+
+header{
+	background:black;
+}
+.navbar li{
+	display:inline-block;
+	margin-left:20px;
+	padding-top:70px;
+	padding-left:90px;
+	padding-right:30px;
+}
+.navbar a
+{
+	color:white;
+	font-size:16px;
+}
+.signin
+{
+	background:rgba(44,62,80,0.7);
+	margin:100px 400px;
+	position:center;
+	padding-left:150px;
+	color:white;
+}
+
+form{
+
+	width:240px;
+	text-align:center;
+}
+input[type=text]
+{
+	width:240px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid #fff;
+	font-weight:200px;
+	transition:border 5s;
+	height:50px;
+	color:#fff;
+}
+input[type=password]
+{
+	width:240px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid #fff;
+	font-weight:200px;
+	transition:border 5s;
+	height:50px;
+	color:#fff;
+}
+
+input[type=submit]
+{
+	border:none;
+	cursor:pointer;
+	background:black;
+	color:white;
+	width:250px;
+	line-height:25px;
+	font-size:16px;
+	padding:10px 0;
+
+}
+h2{
+	color:white;
+	font-size:20px;
+	padding: 10px 0;
+}
+a{
+	color:white;
+	text-decoration:blink;
+}
+a:hover{
+	color:skyblue;
+}
+.addinfo{
+	text-align:center;
+	text-decoration:underline;
+}
+::placeholder{
+	color:grey;
+	opacity:0.8;
+}
+
